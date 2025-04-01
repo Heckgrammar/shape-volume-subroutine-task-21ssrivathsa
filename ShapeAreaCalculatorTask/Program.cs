@@ -11,8 +11,10 @@
             // Pentagon
             // Octagon
         }
-        static int areaOfRectangle()//Add the parameters
+        static int areaOfRectangle(int a, int b)//Add the parameters
         {
+            int area = a * b;
+            return area;
 
         }
     }
